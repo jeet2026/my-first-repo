@@ -1,0 +1,14 @@
+# 系统与编辑器
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# 临时文件
+*.tmp
+*.log
+
+# 密钥
+.env
+*.key
+*.pem

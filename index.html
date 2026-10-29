@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>my-first-repo · GitHub Pages</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center;
+    font-family: system-ui, "Segoe UI", "Microsoft YaHei", sans-serif;
+    background: radial-gradient(900px 500px at 15% 0%, #21304d, #0a0d13 65%);
+    color: #e9eef7;
+  }
+  main {
+    width: min(620px, 92vw); padding: 44px 38px; border-radius: 18px;
+    background: rgba(255,255,255,.055);
+    border: 1px solid rgba(255,255,255,.12);
+    box-shadow: 0 26px 70px rgba(0,0,0,.5);
+  }
+  .tag {
+    display: inline-block; margin-bottom: 18px; padding: 5px 12px;
+    border-radius: 999px; font-size: 12px; letter-spacing: .5px;
+    color: #7fd3ff; background: rgba(90,190,255,.14);
+    border: 1px solid rgba(90,190,255,.32);
+  }
+  h1 { margin: 0 0 10px; font-size: 26px; }
+  p { margin: 0 0 20px; color: #a8b4c8; line-height: 1.75; font-size: 15px; }
+  ol { margin: 0; padding-left: 22px; color: #cbd6e8; line-height: 2; font-size: 14px; }
+  code {
+    padding: 2px 7px; border-radius: 6px; font-size: 13px;
+    background: rgba(255,255,255,.1);
+  }
+</style>
+</head>
+<body>
+  <main>
+    <span class="tag">GitHub Pages</span>
+    <h1>它上线了 🎉</h1>
+    <p>这个页面就放在仓库根目录，没有服务器、没有构建，推上去就能访问。</p>
+    <ol>
+      <li>仓库 → <code>Settings</code> → <code>Pages</code></li>
+      <li>Source 选 <code>Deploy from a branch</code></li>
+      <li>分支选 <code>main</code>，目录选 <code>/ (root)</code></li>
+      <li>等一分钟，访问 <code>https://你的用户名.github.io/my-first-repo/</code></li>
+    </ol>
+  </main>
+</body>
+</html>
